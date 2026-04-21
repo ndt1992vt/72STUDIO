@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nội Thất Cao Cấp | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Sử dụng font chữ Inter thanh lịch, nét mảnh */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+        }
+        
+        /* Ảnh nền cho khu vực mở đầu (Hero Section) */
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Tạo hiệu ứng cuộn mượt (parallax) */
+        }
+    </style><style>
+    /* Font Inter hiện tại cho chữ thường */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+    
+    /* Font Playfair Display mới cho tiêu đề sang trọng */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+    
+    body { 
+        font-family: 'Inter', sans-serif; 
+    }
+    
+    /* Tạo một class tự tạo để dùng font mới */
+    .font-luxury {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    /* ... (giữ nguyên phần .hero-bg) ... */
+</style>
+</head>
+<body class="bg-[#fcfcfc] text-gray-900 antialiased">
+
+    <nav class="absolute w-full top-0 z-50 p-8 md:px-16 flex justify-between items-center text-white">
+        <div class="text-2xl tracking-[0.3em] font-medium uppercase">72Concetp Studio</div>
+        <div class="hidden md:flex space-x-12 text-xs uppercase tracking-[0.2em] font-light">
+            <a href="#" class="hover:text-gray-400 transition duration-300">Dự án</a>
+            <a href="#" class="hover:text-gray-400 transition duration-300">Triết lý</a>
+            <a href="#" class="hover:text-gray-400 transition duration-300">Liên hệ</a>
+        </div>
+    </nav>
+
+    <header class="hero-bg h-screen relative flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 text-center text-white p-4 flex flex-col items-center">
+            <h1 class="font-luxury text-5xl md:text-7xl font-light mb-8 tracking-tight">Nghệ Thuật Không Gian</h1>
+            <p class="text-xs md:text-base font-light tracking-[0.4em] uppercase">Định Hình Phong Cách Sống Đẳng Cấp</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 md:px-8 py-32">
+        <div class="text-center mb-24">
+            <h2 class="text-xl uppercase tracking-[0.3em] font-light mb-6 text-gray-800">Bộ Sưu Tập Tiêu Biểu</h2>
+            <div class="w-8 h-[1px] bg-gray-300 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            
+            <div class="group relative overflow-hidden cursor-pointer bg-white">
+                <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=80" alt="Biệt thự Hiện đại" class="w-full h-[600px] object-cover transition duration-1000 group-hover:scale-105 group-hover:opacity-90">
+                <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition duration-700">
+                    <p class="text-gray-200 text-xs uppercase tracking-[0.2em] mb-3 font-light">Phòng Khách</p>
+                    <h1 class="font-luxury text-3xl md:text-3xl font-light mb-8 tracking-tight">Biệt thự The Vista</h3>
+                </div>
+            </div>
+
+            <div class="group relative overflow-hidden cursor-pointer bg-white">
+                <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1000&q=80" alt="Căn hộ Tối giản" class="w-full h-[600px] object-cover transition duration-1000 group-hover:scale-105 group-hover:opacity-90">
+                <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition duration-700">
+                    <p class="text-gray-200 text-xs uppercase tracking-[0.2em] mb-3 font-light">Phòng Ngủ</p>
+                    <h1 class="font-luxury text-3xl md:text-3xl font-light mb-8 tracking-tight">Căn hộ Penthouse</h3>
+                </div>
+            </div>
+
+            <div class="group relative overflow-hidden cursor-pointer bg-white">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Không gian Ăn uống" class="w-full h-[600px] object-cover transition duration-1000 group-hover:scale-105 group-hover:opacity-90">
+                <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition duration-700">
+                    <p class="text-gray-200 text-xs uppercase tracking-[0.2em] mb-3 font-light">Phòng Ăn</p>
+                    <h1 class="font-luxury text-3xl md:text-3xl font-light mb-0 tracking-tight">Khu Nghỉ Dưỡng Zen</h3>
+                </div>
+            </div>
+
+            <div class="group relative overflow-hidden cursor-pointer bg-white">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=80" alt="Góc Thư giãn" class="w-full h-[600px] object-cover transition duration-1000 group-hover:scale-105 group-hover:opacity-90">
+                <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition duration-700">
+                    <p class="text-gray-200 text-xs uppercase tracking-[0.2em] mb-3 font-light">Sảnh Chờ</p>
+                    <h1 class="font-luxury text-3xl md:text-3xl font-light mb-10 tracking-tight">Lounge Cao Cấp</h3>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-[#111] text-white py-20 text-center">
+        <h4 class="text-xl tracking-[0.3em] font-light mb-8">Studio.</h4>
+        <div class="flex justify-center space-x-8 mb-12 text-xs font-light tracking-widest text-gray-400">
+            <a href="#" class="hover:text-white transition">INSTAGRAM</a>
+            <a href="#" class="hover:text-white transition">FACEBOOK</a>
+            <a href="#" class="hover:text-white transition">PINTEREST</a>
+        </div>
+        <p class="text-[10px] font-light tracking-widest text-gray-600 uppercase">&copy; 2026 Studio Thiết Kế Nội Thất.</p>
+    </footer>
+
+</body>
+</html>
